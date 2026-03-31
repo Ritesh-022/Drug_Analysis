@@ -366,23 +366,3 @@ Drug_Analysis/
 
 ---
 
-## 👤 Author
-
-> ⚠️ *Author information not provided — please update this section.*
-
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
-
----
-
-## 📄 License
-
-> ⚠️ *License not specified — please add a LICENSE file. MIT is recommended for open-source projects.*
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-> **Note:** This platform is intended for research and educational purposes. Predictions should not be used as a substitute for professional pharmaceutical or medical judgment.
