@@ -76,18 +76,18 @@ User Input (SMILES)
         │  REST API (JWT-authenticated)
         ▼
   Express.js Backend  ──────────────────────────────────────┐
-        │                                                    │
+        │                                                   │
         │  HTTP (internal)                          Ollama (LLaMA 3)
         ▼                                           LLM Narrative
-  Flask ML API                                              │
+  Flask ML API                                             │
    ├── SMILES → Graph (RDKit + PyG)                        │
    ├── SMILES → Morgan Fingerprint (RDKit)                 │
    ├── ToxGNN inference (9 Tox21 endpoints)                │
    ├── XGBoost inference (9 Tox21 endpoints)               │
-   ├── Ensemble (0.6 XGB + 0.4 GNN)                       │
+   ├── Ensemble (0.6 XGB + 0.4 GNN)                        │
    ├── ZincGNN inference (logP, QED, SAS)                  │
    └── Final score computation                             │
-        │                                                   │
+        │                                                  │
         └──────────────────────────────────────────────────┘
                           │
                           ▼
